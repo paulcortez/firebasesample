@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.10.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.10.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.10.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.10.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.10.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script defer src="/__/firebase/7.10.0/firebase-firestore.js"></script>
+
+
+</head>
+
+<body>
+
+    <h1 id="title">Hello</h1>
+
+    <button onclick="googleLogin()">Login with Google</button>
+
+    <input type="text" onchange="updatePost(event)">
+
+    <script src="app.js">
+    </script>
+</body>
+
+</html>
